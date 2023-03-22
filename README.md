@@ -3,6 +3,8 @@
 useful links <br />
 https://www.geeksforgeeks.org/stack-data-structure/ 
 
+https://www.learn-c.org/en/Linked_lists
+
 https://medium.com/@jamierobertdawson/push-swap-the-least-amount-of-moves-with-two-stacks-d1e76a71789a
 
 https://github.com/o-reo/push_swap_visualizer
