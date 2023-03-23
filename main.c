@@ -6,7 +6,7 @@
 /*   By: hbalan <marvin@42.fr>                      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/21 21:28:19 by hbalan            #+#    #+#             */
-/*   Updated: 2023/03/21 22:34:27 by hbalan           ###   ########.fr       */
+/*   Updated: 2023/03/23 14:01:23 by hbalan           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -73,18 +73,28 @@ int	main(int argc, char *argv[])
 	a = NULL;
 	b = NULL;
 	k = 0;
-	i = 1;
+	i = argc - 1;
 	if (argc != 1)
 	{
 	// Push values onto stack a
-		while (argv[i] != NULL)
+		// while (argv[i] != NULL)
+		// {
+		// 	value = ft_atoi(argv[i]);
+		// 	// if (value != 0)
+		// 	// {
+		// 		push(&a, value);
+		// 	// }
+		// i++;
+		// }
+	//push to a in reverse order
+		while (i > 0)
 		{
 			value = ft_atoi(argv[i]);
 			// if (value != 0)
 			// {
 				push(&a, value);
 			// }
-		i++;
+		i--;
 		}
 		
 		temp = a;
